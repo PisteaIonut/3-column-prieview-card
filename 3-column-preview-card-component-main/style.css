@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  /* margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  width: 100%;
+  height: 95vh;
+}
+.title {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+.description {
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  letter-spacing: 1px;
+}
+
+.first {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.second {
+  background-color: hsl(184, 100%, 22%);
+}
+.last {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.first,
+.second,
+.last {
+  width: 300px;
+  height: 450px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 95%);
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-1 {
+  color: hsl(31, 77%, 52%);
+}
+.btn-2 {
+  color: hsl(184, 100%, 22%);
+}
+.btn-3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.icon {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 25;
+}
+
+.btn {
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.btn-1:active,
+.btn-1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  transition: 0.6s;
+  border: 3px solid hsl(0, 0%, 95%);
+}
+.btn-2:active,
+.btn-2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  transition: 0.6s;
+  border: 3px solid hsl(0, 0%, 95%);
+}
+.btn-3:active,
+.btn-3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  transition: 0.6s;
+  border: 3px solid hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    height: auto;
+    margin: 10px 0px 10px 0px;
+    flex-direction: column;
+  }
+}
